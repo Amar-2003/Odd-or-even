@@ -1,0 +1,1 @@
+This is where instructions of game to user is added.
