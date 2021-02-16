@@ -3,6 +3,6 @@ This is a terminal based simple odd or even game.In which the user have to have 
 Required Objectives:
   To be written in Python
   To show the rules at the beginning of each game.
-  To repeated show and update scores and the runs required if its a chase.
+  To repeatedly show and update scores and the runs required if its a chase.
   After end show the result and score.
     
