@@ -49,3 +49,30 @@ if(userbat):
 	print("You now take the role of Batsmen")
 else:
 	print("You now take the role of Bowler")
+score1 = 0
+score2 = 0
+#play1
+while(True):
+    try:
+        r = int(input("Enter Your run in range of 0 to 6 inclusive:"))
+    except:
+        print("Enter an integer between 0 and 6")
+    n = int(random.randint(0,6))
+    print(n)
+    if(userbat):
+        if(r == n):
+            print("You are out :(",end="   ")
+            print(f"Your run now is {score1}")
+            break
+        else:
+            score1 += r
+            print(f"Your run now is {score1}")
+    else:
+        if(r == n):
+            print("Computer is out :),Nice bowling",end="   ")
+            print(f"Computer's run now is {score2}")
+            break
+        else:
+            score2 += n
+            print(f"computer's run now is {score2}")
+    
