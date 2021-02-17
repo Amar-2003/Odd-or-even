@@ -15,8 +15,9 @@ try:
 except:
     print("Enter an integer!!")
     exit(1)
-rantoss = int(random.randint(0,1))
-if (tossnumber+rantoss%2 == 0):
+rantoss = int(random.randint(0,6))
+print(f"Computer's chosen number is {rantoss}")
+if ((tossnumber+rantoss)%2 == 0):
     if(choice == "even"):
         print("You won the toss")
         userwon = True
@@ -33,7 +34,7 @@ else:
         userwon = False
 
 if(userwon):
-	inp = input("Enter your choice as bowl or bat in small:")
+	inp = input("Enter your choice as Bowl or Bat in small:")
     
 	if(inp == "bat"):
 		userbat = True
@@ -45,6 +46,6 @@ else:
 	else:
 		userbat = False
 if(userbat):
-	print("You now take the role of batsmen")
+	print("You now take the role of Batsmen")
 else:
 	print("You now take the role of Bowler")
