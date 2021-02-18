@@ -108,7 +108,7 @@ while(True):
             print(f"computer's run now is {score2}", end="  ")
             if(score2 > score1):
                 break
-            print(f"runs remaining for computer to win is{score1 - score2}")
+            print(f"runs remaining for computer to win is {score1 - score2}")
 
 if(score1 > score2):
         print(f"You won by {score1 - score2} runs")
