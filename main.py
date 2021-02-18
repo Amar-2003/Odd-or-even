@@ -5,9 +5,9 @@ with open('instructions.txt','r') as file:
         print(line)
 #toss
 print("Time for Toss")
-choice = input("Enter even or odd in small letter:")
-if(choice != "even" and choice != "odd"):
-    print("Enter either odd or even in small!!")
+choice = input("Enter e for even and o odd in small letter:")
+if(choice != "e" and choice != "o"):
+    print("Enter either o or e in small!!")
     exit(1)
 
 try:
@@ -18,7 +18,7 @@ except:
 rantoss = int(random.randint(0,6))
 print(f"Computer's chosen number is {rantoss}")
 if ((tossnumber+rantoss)%2 == 0):
-    if(choice == "even"):
+    if(choice == "e"):
         print("You won the toss")
         userwon = True
     else:
@@ -26,7 +26,7 @@ if ((tossnumber+rantoss)%2 == 0):
         userwon = False
 
 else:
-    if(choice == "odd"):
+    if(choice == "o"):
         print("You won the toss")
         userwon = True
     else:
