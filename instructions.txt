@@ -1,1 +1,8 @@
-This is where instructions of game to user is added.
+Welcome to Odd or even game.
+Instructions:
+  1.You will have to toss with the computer
+  2.Then choose bat or bowl if you won the toss
+  3.Give the respective number between 0 and 6(Inclusive)
+  4.If you are bowler and your number is equal to that of batsmen then the batsmen is out.(And vice-versa)
+  5.After play 1 the players are swapped there positions and the new batsmen should chase the run set by the batsmen in play 1.
+  All the best :)
