@@ -6,4 +6,7 @@ Required Objectives:
   To show the rules at the beginning of each game.
   To repeatedly show and update scores and the runs required if its a chase.
   After end show the result and score.
+  
+  (For playing)
+  After downloading and unzipping run main.py in terminal or command prompt
     
